@@ -83,7 +83,15 @@
                                         <a href="mailto:admin@example.com"> admin@example.com</a> </p>
                                 </div>
                                 <div class="form-wrapper">
-                                    <form id="contact-form-active" action="process.php" method="post">
+
+
+
+
+
+
+
+
+                                    <form id="contactform" name="contactform" action="" method="post">
                                         <input name="name" type="text" placeholder="Your Name *" />
                                         <input name="phone" type="number" placeholder="Your Name *" />
                                         <input name="email" type="email" placeholder="Your email *">
@@ -93,6 +101,12 @@
                                             <span>Send message</span>
                                         </button>
                                     </form>
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   
                                     <div class="form-output">
                                         <p class="form-messege-active form-messege"></p>
                                     </div>
@@ -151,3 +165,21 @@
         </main>
         <!-- End Page Wrapper  -->
         <?php include 'parisher/footer.php';?>
+        <script>
+            jQuery('#contactform').on('submit',function(e){
+             jQuery.ajax({
+            url: "process.php",
+		    type: "POST",
+               data:jQuery('#contactform').serialize(),
+               success:function(result){
+                 
+                 swal({
+  title: "Good job!",
+  text: result,
+  icon: "success",
+}); 
+               }
+          });
+          e.preventDefault();
+      })
+        </script>

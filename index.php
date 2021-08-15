@@ -131,7 +131,7 @@ there</p>
                                 <!-- Start Single Service  -->
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="single-service service__style--4">
-                                        <a href="service-details.html">
+                                        <a href="">
                                             <div class="service">
                                                 <div class="icon">
                                                     <i data-feather="cast"></i>
@@ -151,7 +151,7 @@ discretion.</p>
                                 <!-- Start Single Service  -->
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="single-service service__style--4">
-                                        <a href="service-details.html">
+                                        <a href="">
                                             <div class="service">
                                                 <div class="icon">
                                                     <i data-feather="layers"></i>
@@ -172,7 +172,7 @@ and engage socially.
                                 <!-- Start Single Service  -->
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="single-service service__style--4">
-                                        <a href="service-details.html">
+                                        <a href="">
                                             <div class="service">
                                                 <div class="icon">
                                                     <i data-feather="users"></i>

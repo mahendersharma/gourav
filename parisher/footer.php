@@ -67,13 +67,7 @@
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-     <script>
-        //  swal({
-        // title: "Good job!",
-        // text: "You clicked the button!",
-        // icon: "success",
-        //       });
-     </script>
+    
     <!-- jQuery JS -->
     <script src="assets/js/vendor/jquery.js"></script>
     <!-- Bootstrap JS -->
@@ -87,7 +81,9 @@
     <script src="assets/js/vendor/jquery.style.switcher.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-
+    <script>
+     
+     </script>
 
 </body>
 
